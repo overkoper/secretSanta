@@ -8,6 +8,13 @@
     display: none;
 }
 /* menu nawigacyjne */
+.alert{
+    position: fixed;
+    height: 100px;
+    width: 300px;
+    color: #ededed;
+    left: 120px;
+}
 .logo{
     z-index: 1000;
     margin-top: -5px;

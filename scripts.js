@@ -1,8 +1,10 @@
-// chowane menu navigacji
+// chowane menu navigacji & znikający alert do menu
 var logo = document.querySelector("#logo");
     navbar = document.querySelector("#navbar");
+    alert = document.querySelector(".alert");
 logo.addEventListener("click", function(){
     navbar.classList.toggle("hidden");
+    alert.classList.add("hidden");
 }, false);
 
 // chowane pole w formularzu praca
