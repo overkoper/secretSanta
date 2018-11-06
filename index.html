@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Secret Santa</title>
+        <meta name="description" content="Secret santa">
+        <link rel="stylesheet" href="main.css">
+       <link href="https://fonts.googleapis.com/css?family=Alegreya|Pacifico&amp;subset=latin-ext" rel="stylesheet">
+      
+    </head>
+<body>
+    <header>
+    <img src="img/iconmonstr-christmas-26.svg" class="logo" id="logo"/> 
+    <nav class="pin hidden" id="navbar">         
+    <div id="nawigacja">
+            <div class="linki">
+                <a href="#strona_glowna" class="instrukcja">Instrukcja</a>
+                <a href="#form" class="zapis">Zapisz się</a>
+                <a href="#maszyna" class="profil">Maszyna losująca</a>
+            </div>
+        </div>    
+        </nav>
+     </header>
+<div class="container1"> 
+    <div class="left_margin"></div>    
+    <div id="strona_glowna">
+            <p class="wstep">Witaj na stronie Tajemniczego Mikołaja. Strona powstała aby ułatwić wszystkim Szanownym Tajemniczym Mikołajom wybór odpowiedniego podarunku dla swojego podopiecznego.</p>
+            <ol>Instukcja działania:
+            <li>Kliknij w poniższy link i zapisz się do maszyny losującej</li>
+            <li>Wypełnij formularz możliwie dokładnie i wyczerpująco - będzie to duża pomoc dla Twojego Mikołaja</li>
+            <li>Otrzymasz na podany adres e-mail informację z Tajnym Kodem</li>
+            <li>Tajny kod posłuży Ci do obejrzenia profilu Twojego podopiecznego w zakładce "Sprawdź kogo wylosowałeś"</li>
+            </ol>
+          </div>
+    <div class="right_margin"></div>
+</div>
+    <div id="form"></div>
+<div class="container2">
+<div class="left_margin"></div>
+    <div class="pojemnik">
+    <form class="form"> 
+    <fieldset>
+    <legend>Twoja praca</legend>        
+    <ul>
+    <label for="job">Czym się zajmujesz?</label>
+        <li><input class="checkbox" type="checkbox"/>Pracuję przy komputerze</li>
+        <li><input class="checkbox" type="checkbox"/>Pracuję fizycznie</li>
+        <li><input class="checkbox" type="checkbox"/>Pomagam innym</li>
+        <li><input class="checkbox" type="checkbox"/>Mówię innym co mają robić</li>
+        <li><input class="checkbox" type="checkbox"/>Prowadzę szkolenia/prezentacje</li>
+        <li><input class="checkbox" type="checkbox"/>Rozmawiam/negocjuję</li>
+        <li><input class="checkbox" type="checkbox"/>Sprzedaję/kupuję</li>
+        <li><input class="checkbox" type="checkbox"/>Jeżdżę samochodem</li>
+        <li><input class="checkbox" type="checkbox"/>Dzwonię/obieram telefony</li>
+        <li><input class="checkbox" type="checkbox"/>Sprzątam</li>
+        <li><input class="checkbox" type="checkbox"/>Czytam</li>
+        <li><input class="checkbox" type="checkbox"/>Piszę</li>
+        <li><input class="checkbox" type="checkbox"/>Liczę</li>
+        <li><input class="checkbox" type="checkbox"/>Rysuję/projektuję</li>
+        <li><input class="checkbox" type="checkbox"/>Tańczę </li>
+        <li><input class="checkbox" type="checkbox"/>Śpiewam</li>
+        <li><input class="checkbox" type="checkbox"/>Gotuję</li>
+        <li><input id = "inne" class="checkbox" type="checkbox"/><span>Robię coś innego</span> <input id="corobisz" type="text" placeholder="co robisz?"></li>
+        </ul>
+    </fieldset>
+    <fieldset class="intrests">   
+    <legend>Twoje zainteresowania</legend>
+    <label for="freetime">Co najbardziej lubisz robić w wolnym czasie?</label> 
+    <ul id="intrests">
+        <li><input id="freetime1" type="checkbox" class = "box"/><span>Czytam książki</span> <input id="freetime" type="text" placeholder="jakie?" class="text hidden"/></li>
+        <li><input id="freetime1" type="checkbox" class = "box"/><span>Czytam czasopisma</span> <input id="freetime" type="text" placeholder="jakie?" class="text hidden"/></li>
+        <li><input id="freetime1" type="checkbox" class = "box"/><span>Oglądam filmy</span> <input id="freetime" type="text" placeholder="jakie?" class="text hidden"/></li>
+        <li><input id="freetime1" type="checkbox" class = "box"/><span>Oglądam seriale</span> <input id="freetime" type="text" placeholder="jakie?" class="text hidden"/></li>
+        <li><input id="freetime1" type="checkbox" class = "box"/><span>Chodzę do kina</span> <input id="freetime" type="text" placeholder="na co?" class="text hidden"/></li>
+        <li><input id="freetime1" type="checkbox" class = "box"/><span>Gram w gry planszowe</span> <input id="freetime" type="text" placeholder="jakie?" class="text hidden"/></li>
+        <li><input id="freetime1" type="checkbox" class = "box"/><span>Gram w gry video</span> <input id="freetime" type="text" placeholder="jakie?" class="text hidden"/></li>
+        <li><input id="freetime1" type="checkbox" class = "box"/><span>Gram w inne gry</span> <input id="freetime" type="text" placeholder="jakie?" class="text hidden"/></li>
+        <li><input id="freetime1" type="checkbox"/><span>Spaceruję</span> </li>
+        <li><input id="freetime1" type="checkbox"/><span>Biegam</span> </li>
+        <li><input id="freetime1" type="checkbox"/><span>Jeżdżę na rowerze</span> </li>
+        <li><input id="freetime1" type="checkbox"/><span>Pływam</span> </li>
+        <li><input id="freetime1" type="checkbox" class = "box"/><span>Uprawiam inny sport</span> <input id="freetime" type="text" placeholder="jaki?" class="text hidden"/></li>
+        <li><input id="freetime1" type="checkbox"/><span>Gotuję</span> </li>
+        <li><input id="freetime1" type="checkbox"/><span>Jem</span> </li>
+        <li><input id="freetime1" type="checkbox"/><span>Piję</span> </li>
+        <li><input id="freetime1" type="checkbox" class="box"/><span>Chadzam do restauracji</span> <input id="freetime" type="text" placeholder="jakich?" class="text hidden"/> </li>
+        <li><input id="freetime1" type="checkbox" class="box"/><span>Robię coś innego</span> <input id="freetime" type="text" placeholder="co robisz?" class="text hidden"/> </li>
+        
+    </ul>
+    </fieldset>
+    <fieldset class="dane">
+        <legend >Podstawowe dane</legend>
+        <label for="imie"><span>Imię</span></label>
+            <input id="imie" type="text" placeholder="twoje imię"/>
+        <label for="email"><span>E-mail</span></label>
+            <input id="email" type="email" placeholder="twój@mail"/>
+            <label for="list"><span>Napisz list do Tajemniczego Mikołaja</span></label>
+        <textarea id="list"></textarea>
+        <label for="beh"><span>Czy byłeś grzeczny w tym roku?</span></label>    
+        <select id="beh">
+            <option value="yes">Tak</option>
+            <option value="no">Nie</option>
+            <option value="dnr">Nie pamiętam</option>
+        </select>
+        <div class="wyslij"><button type="submit" class="guzik">Wyślij</button></div>
+    </fieldset>
+</form> 
+</div>
+<div class="right_margin"></div>
+    
+</div>
+    <footer class="container3">
+        <div class="left_margin"></div>
+        <div id="maszyna">
+            <img src="img/iconmonstr-christmas-27.svg" class="balwan">
+            <div class="losowanie">Maszyna losująca. Wpisz numer i sprawdź kogo wylosowałeś </div><input type="password" class="haslo"/>
+            <button type="submit" class="guzik">Sprawdź</button>
+        </div>
+        <div class="right_margin"></div>
+    </footer>
+<script src="scripts.js"></script>       
+</body>
+</html>
