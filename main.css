@@ -7,6 +7,21 @@
 .hidden{
     display: none;
 }
+.error{
+    border: 3px solid #db1a1a;
+}
+.errors{
+    display: block;
+    border: 3px solid #db1a1a;
+    background-color: #db1a1a;
+    box-shadow: inset 10px 10px 40px rgb(0, 0, 0);
+    -moz-box-shadow: inset 10px 10px 4px rgb(63, 0, 0);
+    -webkit-box-shadow: inset 10px 10px 40px rgb(185, 21, 21);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    animation: alert 500ms ease-in-out 0s 1 forwards;
+}
 /* menu nawigacyjne */
 .alert{
     position: fixed;
@@ -295,6 +310,7 @@ header img:hover{
     left: 33%;
     padding-top: 20%;
 }
+
 /* dół strony */
 
 .container3{

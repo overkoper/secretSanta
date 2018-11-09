@@ -94,13 +94,14 @@
     <fieldset class="dane">
         <legend >Podstawowe dane</legend>
         <label for="imie"><span>Imię</span></label>
-            <input id="imie" type="text" placeholder="twoje imię"/>
+            <input id="imie" type="text" placeholder="twoje imię" data-error="Podaj swoje imię"/>
         <label for="email"><span>E-mail</span></label>
-            <input id="email" type="email" placeholder="twój@mail"/>
+            <input id="email" type="email" placeholder="twój@mail" data-error="Podaj swój e-mail"/>
             <label for="list"><span>Napisz list do Tajemniczego Mikołaja</span></label>
         <textarea id="list"></textarea>
         <label for="beh"><span>Czy byłeś grzeczny w tym roku?</span></label>    
-        <select id="beh">
+        <select id="beh" data-error="Zdradź czy byłeś grzeczny">
+            <option value="" disabled selected>-- Wybierz --</option>
             <option value="yes">Tak</option>
             <option value="no">Nie</option>
             <option value="dnr">Nie pamiętam</option>
