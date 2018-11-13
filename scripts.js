@@ -6,7 +6,17 @@ logo.addEventListener("click", function(){
     navbar.classList.toggle("hidden");
     alert.classList.add("hidden");
 }, false);
+//alert do menu na scroll
+logo.addEventListener("mouseenter", function(){
 
+    alert.classList.remove("hidden");
+    
+}, false);
+logo.addEventListener("mouseleave", function(){
+
+    alert.classList.add("hidden");
+
+}, false);
 // chowane pole w formularzu praca
 var inne = document.querySelector("input[id='inne']");
     corobisz = document.querySelector("input[id='corobisz']");
