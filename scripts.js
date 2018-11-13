@@ -6,7 +6,7 @@ logo.addEventListener("click", function(){
     navbar.classList.toggle("hidden");
     alert.classList.add("hidden");
 }, false);
-//alert do menu na scroll
+//alert do menu na najechanie myszą
 logo.addEventListener("mouseenter", function(){
 
     alert.classList.remove("hidden");
@@ -95,3 +95,20 @@ form.addEventListener("submit", function(e){
     }
     console.log(errors);
 }, false);
+// losowanie numeru dla mikołaja
+var code = document.querySelector("#code");
+function getNumber (min, max){
+    return Math.round(Math.random() * (max - min));
+}
+function showNumbers(){
+    var numbers = [],
+        random;
+
+    for (var i = 0; i < 5; i++){
+        random = getNumber (0, 9);
+        numbers.push(random);
+    };
+var kod = numbers.join("");
+    console.log(kod);
+}
+code.onclick = showNumbers;
